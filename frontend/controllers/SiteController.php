@@ -68,29 +68,12 @@ class SiteController extends Controller
     public function actionIndex()
     {
         return $this->render('index');
-    }
-
-    public function actionLogin()
-    {
-        if (!\Yii::$app->user->isGuest) {
-            return $this->goHome();
-        }
-
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        } else {
-            return $this->render('login', [
-                'model' => $model,
-            ]);
-        }
-    }
-
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
+        //$wechat = Yii::$app->wechat; 
+        //return var_dump($wechat->getMemberInfo('ocB_lwdtQh6wJ2Mi7EjLIOqVSuw4'));
+        //return var_dump($wechat->getMemberList());
+        //$get = Yii::$app->request->get();
+        //return $get['echostr'];
+        //return "hello world";
     }
 
     public function actionContact()
