@@ -414,25 +414,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/callmez/yii2-wechat-sdk.git",
-                "reference": "c5568fb3bee4f7dda7898624fac6fc586718b0df",
-                "mirrors": [
-                    {
-                        "url": "/%package%/%normalizedUrl%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "reference": "f161c89d6678d69c2bf767558b03c8ada3d55e74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/callmez/yii2-wechat-sdk/zipball/c5568fb3bee4f7dda7898624fac6fc586718b0df",
-                "reference": "c5568fb3bee4f7dda7898624fac6fc586718b0df",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "http://comproxy.cn/repo/packagist/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/callmez/yii2-wechat-sdk/zipball/f161c89d6678d69c2bf767558b03c8ada3d55e74",
+                "reference": "f161c89d6678d69c2bf767558b03c8ada3d55e74",
+                "shasum": ""
             },
             "require": {
                 "yiisoft/yii2": "*"
@@ -460,7 +448,7 @@
                 "weixin",
                 "yii2"
             ],
-            "time": "2015-07-28 04:07:43"
+            "time": "2015-08-19 10:39:26"
         },
         {
             "name": "cebe/markdown",
